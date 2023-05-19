@@ -1,0 +1,42 @@
+*{
+    margin:0;
+padding: 0;
+}
+body{
+    background-color: rgb(29, 47, 105);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+form{
+    width: 100%;
+    height: auto;
+    display: flex;
+  
+    flex-wrap: wrap;
+ 
+    justify-content: center;
+    text-align: center;
+}
+div{
+    width: 150px;
+    height: 150px;
+    background-color: antiquewhite;
+    border-radius: 150px;
+  
+}
+input{
+    position: absolute;
+    margin-top: 4.4%;
+    margin-left: -4%;
+    width: 130px;
+    opacity: 3;
+    z-index: 2;
+    outline: 0;
+}
+
